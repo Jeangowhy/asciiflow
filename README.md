@@ -10,6 +10,13 @@ ASCIIFlow is a client-side only web based application for drawing ASCII diagrams
   </picture>
 </p>
 
+## Install VS Code extension manually
+
+* Open VS Code
+* Open Command Palette by Ctrl+Shift+P
+* Execute command: >Install Extension from Location...
+* Exxcute command: >Asciiflow: Open Asciiflow
+* Done! Enjoy your ASCII Art!✨
 
 ## Bug Fix
 
@@ -47,7 +54,7 @@ And the refactor code was maked for a code reader's nice mood.
 
 2. Panning operation and TextDraw
 
-Cursor will move forward when user panning canvas by space bar and mouse drag. Just fix the if stament with the ``this.mode != Mode.DRAG``。
+Cursor will move forward when user panning canvas by space bar and mouse drag. Just fix the `if` stament with the ``this.mode != Mode.DRAG``.
 
 ```typescript
 
